@@ -1,0 +1,9 @@
+---
+applications:
+- name: shpping-test-3
+  path: target\shoppig-test-3-1.0.0.jar
+  memory: 1G
+  routes:
+    - route: shpping-test-3-service1.cfapps.io
+  services:
+    - eureka  
